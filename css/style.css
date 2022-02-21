@@ -1,0 +1,55 @@
+.bg-blue{
+    background-color: blue;
+    border:1px solid white;
+    text-align:center;
+    min-height: 50px;
+    vertical-align: middle;
+    line-height: 50px;
+    color:white;
+
+}
+
+.bg-green{
+    background-color:rgb(46, 224, 46);
+    border:1px solid blue;
+    text-align:center;
+    line-height: 50px;
+    min-height: 50px;
+    
+}
+
+
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+
+}
+
+.w100{
+    width: 100%;
+}
+.h20{
+    height: 50px;
+}
+
+.h50{
+    height: 50px;
+   
+}
+.m-h50{
+    min-height: 50px;
+    height: auto;
+   
+}
+.pad10{
+    padding:10px;
+}
+
+*{color:white;}
+h1{
+    color:black;
+}
